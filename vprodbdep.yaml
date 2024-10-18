@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: anirban2311/vprofiledb:v1
+        image: anirban2311/vprofiledb:latest
         volumeMounts:
           - mountPath: /var/lib/mysql
             name: vpro-db-data
